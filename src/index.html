@@ -3,28 +3,217 @@
     <head>
         <title> Technology - BBC News</title>
 
-        <style>
-            #white header {
-                background-color: #FFFFFF;
-                width: 1000px;
-                height: 50px; 
-               
+        <style type="text/css">
+        #topbar {
+            width: 1500px;
+            margin: 0 auto;
+            height: 40px;
+            background-color: white;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #logo {
+            margin-top: 4px;
+            width: 100px;
+            float:left;
+            margin-right: 8px;
+        }
+        .topbar-section {
+            float: left;
+            border-left: 1px #CCCCCC solid;
+            height: 100%;
+        }
+        #signin-div {
+            font-weight: 700;
+            font-size: smaller;
+            margin-right: 8px;
+        }
+        #signin-image {
+            margin: 12px 10px;
+            width: 25px;
+            float: left;
+        }
+        #signin-text {
+            top: 15px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+            position: relative;
+            float: left;
+            
+        }
+        #weidrthingy {
+            padding-left: 45px;
+            float: left;
+           
+        }
+        #bell {
+            margin: 9px 8px 0 11px;
+            
+        }
+        #bell-div {
+            float: left;
+        }
+        .topbar-menu {
+            font-weight: 700;
+            font-size: smaller;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+        }
+        #more-arrow {
+            width: 16px;
+            margin-left: 13px;
+        }
+        #search-box {
+            background-color: #E4E4E4;
+            border: none;
+            height: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: larger;
+            width: 150px;
+            float: left;
+            margin-top: -3px;
+            
+        }
+        #magnifiying-glass {
+            float: right;
+            height: 26px;
+            margin-top: -3px;
+        }
+        .clear {
+            clear:both;
+        }
+        #menu-bar-container {
+            
+            background-color: #BC1919;
+            width: 100%;
+            height: 70px;
+        
+        }
+        .menu-bar {
+            width: 1500px;
+            margin:0 auto;
+            
+           
+        }
+        h1 {
+            padding: 10px;
+            margin: 0;
+            font-size: 35px;
+            font-weight: normal;
+            padding-top: 10px;
+            color:white;
+            float:left;
+          
+        }
+        #menu-bar-2-container {
+
+        background-color: #BC1919;
+        width: 100%;
+        float: left;
+        left: 0;
+
+        }
+        #menu-bar-2 {
+            width: 1500px;
+            margin: 0 auto;
+            height: 27px;
+
+        }
+        #menu-bar-2 a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+            border-right: 1px solid #BC4450;
+            font-size: 85%;
+            float:left;
+            position: relative;
+            top: 5px;
+          
+            
+
+        }
 
 
-
-            }
+      
+        
+        
         
         
         
         </style>
-        <div class="white header"><img src="BBC-Logo.wine.png" width="100" height="50"></div>
-       
     </head>
     <body>
-        lalala
+        <div id="topbar">
+            <img id="logo" src="images/bbclogo.png">
+            <div id="signin-div" class="topbar-section"> 
+                <img id="signin-image" src="images/signinlogo.png">
+                <a id="signin-text" href="https://session.bbc.co.uk/session?ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology&context=news&userOrigin=news_ps">Sign in</a>
+            
+            </div>
+            <div id="bell-div">
+                <img id="weidrthingy" src="images/weirdthingy.png">
+                <img id="bell" src="images/bell.png">
+                
+            </div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/">Home</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news">News</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sport">Sport</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/weather">Weather</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/iPlayer">iPlayer</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sounds">Sounds</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></div>
+            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news/technology#orb-footer">More</a><img id="more-arrow" src="images/more-arrow.png"></div>
+
+            <div class="topbar-section topbar-menu">
+                <input id="search-box" type="text" value="Search">
+                <input type="image" id="magnifiying-glass" src="images/magnifying-glass.png">
+             </div>
+
+        </div>
+
+        <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+            <div id="menu-bar" >
+                <h1>NEWS</h1>
+            </div>
+            <div id="menu-bar-2-container">
+                <div id="menu-bar-2"> 
+                   <a href="https://www.bbc.co.uk/news">Home</a>
+                   <a href="https://www.bbc.co.uk/news/coronavirus">Coronavirus</a>
+                   <a href="https://www.bbc.co.uk/news/science-environment-56837908">Climate</a>
+                   <a href="https://www.bbc.co.uk/news/uk">UK</a>
+                   <a href="https://www.bbc.co.uk/news/world">World</a>
+                   <a href="https://www.bbc.co.uk/news/business">Business</a>
+                   <a href="https://www.bbc.co.uk/news/politics">Politics</a>
+                   <a href="https://www.bbc.co.uk/news/technology">Tech</a>
+                   <a href="https://www.bbc.co.uk/news/science_and_environment">Science</a>
+                   <a href="https://www.bbc.co.uk/news/health">Health</a>
+                   <a href="https://www.bbc.co.uk/news/education">Family & Education</a>
+                   <a href="https://www.bbc.co.uk/news/entertainment_and_arts">Entertainment & Arts</a>
+                   <a href="https://www.bbc.co.uk/news/stories">Stories</a>
+                   <a href="https://www.bbc.co.uk/news/in_pictures">In Pictures</a>
+                   <a href="">More</a>
+                 
+
+
+                </div>
+            </div>
+
+        </div>
+        
+
+        
+
+
+
     </body>
-
-
-
-
 </html>
