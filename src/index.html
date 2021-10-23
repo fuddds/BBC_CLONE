@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Technology - BBC News</title>
 
-        <style type="text/css">
+<head>
+    <title> Technology - BBC News</title>
+
+    <style type="text/css">
         #topbar {
             width: 1500px;
             margin: 0 auto;
@@ -11,65 +12,77 @@
             background-color: white;
 
         }
+
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
         }
+
         #logo {
             margin-top: 4px;
             width: 100px;
-            float:left;
+            float: left;
             margin-right: 8px;
         }
+
         .topbar-section {
             float: left;
             border-left: 1px #CCCCCC solid;
             height: 100%;
         }
+
         #signin-div {
             font-weight: 700;
             font-size: smaller;
             margin-right: 8px;
         }
+
         #signin-image {
             margin: 12px 10px;
             width: 25px;
             float: left;
         }
+
         #signin-text {
             top: 15px;
         }
-        
+
         a {
             text-decoration: none;
             color: black;
             position: relative;
             float: left;
-            
+
         }
+
         #weidrthingy {
             padding-left: 45px;
             float: left;
-           
+
         }
+
         #bell {
             margin: 9px 8px 0 11px;
-            
+
         }
+
         #bell-div {
             float: left;
         }
+
         .topbar-menu {
             font-weight: 700;
             font-size: smaller;
             padding: 13px 15px 0 15px;
             height: 27px;
         }
+
         #more-arrow {
             width: 16px;
             margin-left: 13px;
         }
+
         #search-box {
             background-color: #E4E4E4;
             border: none;
@@ -80,140 +93,239 @@
             width: 150px;
             float: left;
             margin-top: -3px;
-            
+
         }
+
         #magnifiying-glass {
             float: right;
             height: 26px;
             margin-top: -3px;
         }
+
         .clear {
-            clear:both;
+            clear: both;
         }
+
         #menu-bar-container {
-            
+
             background-color: #BC1919;
-            width: 100%;
+            width: auto;
             height: 70px;
-        
-        }
-        .menu-bar {
-            width: 1500px;
-            margin:0 auto;
+            margin: 0 auto;
             
-           
+
         }
+
+        .menu-bar {
+            width: auto;
+            margin: 0 auto;
+           
+            
+
+
+        }
+
         h1 {
             padding: 10px;
-            margin: 0;
+            margin: 0 auto;
             font-size: 35px;
             font-weight: normal;
             padding-top: 10px;
-            color:white;
-            float:left;
-          
+            color: white;
+            position: relative
+        
+            
+
         }
+
         #menu-bar-2-container {
 
-        background-color: #BC1919;
-        width: 100%;
-        float: left;
-        left: 0;
+            background-color: #BC1919;
+            width: 100%;
+            float: left;
+            left: 0;
 
         }
+
         #menu-bar-2 {
             width: 1500px;
             margin: 0 auto;
             height: 27px;
 
         }
+
         #menu-bar-2 a {
             color: white;
             text-decoration: none;
             padding: 0 10px;
             border-right: 1px solid #BC4450;
             font-size: 85%;
-            float:left;
+            float: left;
             position: relative;
             top: 5px;
-          
-            
+
+
 
         }
 
+        .no-border {
+            border: none !important;
 
-      
-        
-        
-        
-        
-        
-        </style>
-    </head>
-    <body>
-        <div id="topbar">
-            <img id="logo" src="images/bbclogo.png">
-            <div id="signin-div" class="topbar-section"> 
-                <img id="signin-image" src="images/signinlogo.png">
-                <a id="signin-text" href="https://session.bbc.co.uk/session?ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology&context=news&userOrigin=news_ps">Sign in</a>
+        }
+        .arrow {
+
+            margin-top: 9px;
+            margin-left: -4px;
+        }
+
+        #page-container {
+            width: 1500px;
+            margin: 0 auto;
+
+        }
+        #main-header {
+            border-bottom: 3px solid rgb(187, 25, 25);
+            font-weight: 400;
+            font-stretch: 100%;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 22px;
+            margin-bottom: 4px;
+            margin-top: 8px;
+            padding-bottom: 2px;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
             
-            </div>
-            <div id="bell-div">
-                <img id="weidrthingy" src="images/weirdthingy.png">
-                <img id="bell" src="images/bell.png">
+        }
+
+        .text-with-link {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            padding-left: 12px;
+
+           
+
+        }
+        h3 a:hover {
+            text-decoration: underline;
+            color: #1480A1;
+
+        }
+        #content-1 {
+            float: left;
+            padding-left: 12px;
+            font-size: 20px;
+            font-weight: 400;
+           
+
+
+
+        }
+        p a {
+            color: #5A5A5A;
+        }
+
+       
+
+        .twitter-image {
+            float: left;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="topbar">
+        <img id="logo" src="images/bbclogo.png">
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image" src="images/signinlogo.png">
+            <a id="signin-text"
+                href="https://session.bbc.co.uk/session?ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology&context=news&userOrigin=news_ps">Sign
+                in</a>
+
+        </div>
+        <div id="bell-div">
+            <img id="weidrthingy" src="images/weirdthingy.png">
+            <img id="bell" src="images/bell.png">
+
+        </div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/">Home</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news">News</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sport">Sport</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/weather">Weather</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/iPlayer">iPlayer</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sounds">Sounds</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></div>
+        <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news/technology#orb-footer">More</a><img
+                id="more-arrow" src="images/more-arrow.png"></div>
+
+        <div class="topbar-section topbar-menu">
+            <input id="search-box" type="text" value="Search">
+            <input type="image" id="magnifiying-glass" src="images/magnifying-glass.png">
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="menu-bar-container">
+        <div id="menu-bar">
+            <h1>NEWS</h1>
+        </div>
+        <div id="menu-bar-2-container">
+            <div id="menu-bar-2">
+                <a href="https://www.bbc.co.uk/news">Home</a>
+                <a href="https://www.bbc.co.uk/news/coronavirus">Coronavirus</a>
+                <a href="https://www.bbc.co.uk/news/science-environment-56837908">Climate</a>
+                <a href="https://www.bbc.co.uk/news/uk">UK</a>
+                <a href="https://www.bbc.co.uk/news/world">World</a>
+                <a href="https://www.bbc.co.uk/news/business">Business</a>
+                <a href="https://www.bbc.co.uk/news/politics">Politics</a>
+                <a href="https://www.bbc.co.uk/news/technology">Tech</a>
+                <a href="https://www.bbc.co.uk/news/science_and_environment">Science</a>
+                <a href="https://www.bbc.co.uk/news/health">Health</a>
+                <a href="https://www.bbc.co.uk/news/education">Family & Education</a>
+                <a href="https://www.bbc.co.uk/news/entertainment_and_arts">Entertainment & Arts</a>
+                <a href="https://www.bbc.co.uk/news/stories">Stories</a>
+                <a href="https://www.bbc.co.uk/news/in_pictures">In Pictures</a>
+                <a href="" class="no-border" >More</a> <img class="arrow" src="images/arrow.png">
                 
+
+
+
+
+
             </div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/">Home</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news">News</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sport">Sport</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/weather">Weather</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/iPlayer">iPlayer</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/sounds">Sounds</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></div>
-            <div class="topbar-section topbar-menu"><a href="https://www.bbc.co.uk/news/technology#orb-footer">More</a><img id="more-arrow" src="images/more-arrow.png"></div>
-
-            <div class="topbar-section topbar-menu">
-                <input id="search-box" type="text" value="Search">
-                <input type="image" id="magnifiying-glass" src="images/magnifying-glass.png">
-             </div>
-
         </div>
 
-        <div class="clear"></div>
-        
-        <div id="menu-bar-container">
-            <div id="menu-bar" >
-                <h1>NEWS</h1>
-            </div>
-            <div id="menu-bar-2-container">
-                <div id="menu-bar-2"> 
-                   <a href="https://www.bbc.co.uk/news">Home</a>
-                   <a href="https://www.bbc.co.uk/news/coronavirus">Coronavirus</a>
-                   <a href="https://www.bbc.co.uk/news/science-environment-56837908">Climate</a>
-                   <a href="https://www.bbc.co.uk/news/uk">UK</a>
-                   <a href="https://www.bbc.co.uk/news/world">World</a>
-                   <a href="https://www.bbc.co.uk/news/business">Business</a>
-                   <a href="https://www.bbc.co.uk/news/politics">Politics</a>
-                   <a href="https://www.bbc.co.uk/news/technology">Tech</a>
-                   <a href="https://www.bbc.co.uk/news/science_and_environment">Science</a>
-                   <a href="https://www.bbc.co.uk/news/health">Health</a>
-                   <a href="https://www.bbc.co.uk/news/education">Family & Education</a>
-                   <a href="https://www.bbc.co.uk/news/entertainment_and_arts">Entertainment & Arts</a>
-                   <a href="https://www.bbc.co.uk/news/stories">Stories</a>
-                   <a href="https://www.bbc.co.uk/news/in_pictures">In Pictures</a>
-                   <a href="">More</a>
-                 
+    </div>
+    <div class="clear"></div>
+    <div id="page-container">
 
 
-                </div>
-            </div>
 
-        </div>
-        
-
+    <div id="main-article">
+        <h2 id="main-header">Technology</h2>
+        <h3> <img src="images/twitter.png" class="twitter-image" > 
+        <a href="https://www.bbc.co.uk/news/technology-59011271" class="text-with-link" >Twitter's algorithm favours <br> right-leaning politics, research finds</a></h3>
+        <p id="content-1"><a href="https://www.bbc.co.uk/news/technology-59011271">The social-media giant said it made the discovery while exploring how <br> its algorithm recommends political content to users.</a></p>
         
 
 
+    </div>
+</div>
 
-    </body>
+
+
+
+
+
+</body>
+
 </html>
